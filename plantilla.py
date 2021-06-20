@@ -1,5 +1,5 @@
 ################
-# Martín René - @martinvilu
+# Gastón Nehuen Rodriguez Valdez - @nehus
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
