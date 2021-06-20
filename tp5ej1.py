@@ -2,6 +2,7 @@
 # Gastón Nehuen Rodriguez Valdez - @nehusn
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
+from saludo import saludo
 def paridad(numero):
     temp=bin(numero)
     n = str(temp)
@@ -10,9 +11,8 @@ def paridad(numero):
     else:
         return False
 def prueba():
-    saludo="Pares e impares "
-    saludo_titulo= saludo.upper()
-    print(saludo_titulo+"\n")
+    mensaje="Par o Impar"
+    saludo(mensaje)
     numero=int(input("Ingrese un número: "))
     resultado=paridad(numero)
     paridad(numero)
