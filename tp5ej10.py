@@ -4,7 +4,7 @@
 ################
 from saludo import saludo
 def a_binario(num):
-    num_binario=bin(num)
+    num_binario=format(num,"b")
     return num_binario
 
 def prueba():
