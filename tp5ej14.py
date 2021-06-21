@@ -4,8 +4,8 @@
 ################
 from saludo import saludo
 def es_capicua(num):
-    reverse_txt= num[::-1]
-    if num==reverse_txt:
+    reverse_num= num[::-1]
+    if num==reverse_num:
         return True
     else:
         return False
