@@ -1,5 +1,5 @@
 ################
-# Gastón Nehuen Rodriguez Valdez - @nehus
+# Gastón Nehuen Rodriguez Valdez - @nehusn
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
