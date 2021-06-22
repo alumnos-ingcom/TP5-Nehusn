@@ -5,5 +5,5 @@
 def saludo(mensaje):
     titulo=mensaje
     saludo_titulo= titulo.upper()
-    print(saludo_titulo+"\n")
+    print("\x1b[0;45m",saludo_titulo,"\x1b[0;48m","\n")
     
