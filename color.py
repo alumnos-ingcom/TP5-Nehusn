@@ -14,11 +14,13 @@ def color_letra():
     num = random.randint(31,36)
     color=f"\x1b[0;{num}m"
     return color
+def color_fondo():
+    num = random.randint(41,46)
+    color=f"\x1b[0;{num}m"
+    return color
     
 def prueba():
     
     for i in range(0,100):
         color_a=color_letra()
         print(f"{color_a}",i)
-
-prueba()
