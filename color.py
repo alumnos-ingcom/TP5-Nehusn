@@ -20,4 +20,4 @@ def prueba():
     
     for i in range(0,100):
         color_a=color_rgb()
-        print(f"{color_a}",i)
+        print(f"{color_a}",i,f"\x1b[0m")
